@@ -8,70 +8,69 @@
     tools:context=".MainActivity">
 
 
-        <LinearLayout
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/recyclerviewbtn2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16sp"
+            android:backgroundTint="#4CAF50"
 
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            android:elevation="10dp"
+            android:text="Users"
 
-                <Button
-                    android:id="@+id/recyclerviewbtn2"
-                    android:layout_width="match_parent"
-                    android:layout_margin="16sp"
-                    android:visibility="gone"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-
-                    android:backgroundTint="#4CAF50"
-                    android:elevation="10dp"
-
-                    android:text="Users" />
+            android:visibility="gone" />
 
 
-                <Button
-                    android:id="@+id/recyclerviewbtn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="16sp"
-                    android:layout_gravity="center_horizontal"
+        <Button
+            android:id="@+id/recyclerviewbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16sp"
 
-                    android:backgroundTint="#4CAF50"
-                    android:elevation="10dp"
+            android:backgroundTint="#4CAF50"
+            android:elevation="10dp"
 
-                    android:text="Orders (One Time)" />
+            android:text="Orders (One Time)" />
 
-                <Button
-                    android:id="@+id/recyclerviewbtn1"
-                    android:layout_width="match_parent"
-                    android:layout_margin="16sp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
+        <Button
+            android:id="@+id/recyclerviewbtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16sp"
 
-                    android:backgroundTint="#4CAF50"
-                    android:elevation="10dp"
+            android:backgroundTint="#4CAF50"
+            android:elevation="10dp"
 
-                    android:text="Orders (Silver Plan)" />
+            android:text="Orders (Silver Plan)" />
 
 
+        <Button
+            android:id="@+id/recyclerviewbtn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16sp"
+            android:backgroundTint="#4CAF50"
 
-                <Button
-                    android:id="@+id/recyclerviewbtn3"
-                    android:layout_width="match_parent"
-                    android:layout_margin="16sp"
-                    android:layout_height="wrap_content"
-                    android:visibility="gone"
-                    android:layout_gravity="center_horizontal"
+            android:elevation="10dp"
+            android:text="Feedbacks"
 
-                    android:backgroundTint="#4CAF50"
-                    android:elevation="10dp"
+            android:visibility="gone" />
 
-                    android:text="Feedbacks" />
-
-        </LinearLayout>
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

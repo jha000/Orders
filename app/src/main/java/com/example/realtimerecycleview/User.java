@@ -9,8 +9,6 @@ public class User {
     String Address;
     String Quantity;
 
-
-
     User ()
     {
 
